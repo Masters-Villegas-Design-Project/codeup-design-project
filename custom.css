@@ -13,6 +13,7 @@ body {
     text-align: center;
     justify-content: center;
     flex-direction: column;
+    margin: 2em;
 }
 
 #design{
@@ -44,8 +45,7 @@ body {
     flex-direction: column;
 }
 
-/*.selector-for-smol-circle {*/
-/*    !*box-sizing: content-box;*!*/
-/*    width: 18px;*/
-/*    height: 18px;*/
-/*}*/
+img {
+    max-width: 100%;
+    height: auto;
+}
