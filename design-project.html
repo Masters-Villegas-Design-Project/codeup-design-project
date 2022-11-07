@@ -14,7 +14,7 @@
 <div class="container">
 <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">ICON</a>
+        <a id="icon" class="navbar-brand" href="#"><img src="assets/logo.png" alt="macbok"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -48,26 +48,29 @@
     <br>
     <br>
 <!--    typography-->
-<p class="text-center">VISUAL DESIGN & WEB DEVELOPMENT</p>
-<p class="text-center">FROM PARK CITY, UTAH</p>
+<p id="banner" class="text-center">VISUAL DESIGN & WEB DEVELOPMENT</p>
+<p id="subbanner" class="text-center">FROM PARK CITY, UTAH</p>
 
 <!--    icons-->
-    <div class="d-flex justify-content-center container">
+    <div class="container d-flex justify-content-center ">
         <div class="row">
-            <div class="col-6 col-lg-3 ">
+            <div class="col-6 col-lg-3 align-self-sm-end">
                 <div id="design" class="selector-for-some-widget">DESIGN</div>
-            </div> <div class="col-6 col-lg-3 ">
+            </div> <div class="col-6 col-lg-3">
                 <div id="develop" class="selector-for-some-widget">DEVELOP</div>
-            </div> <div class="col-6 col-lg-3 ">
+            </div> <div class="col-6 col-lg-3">
                 <div id="support" class="selector-for-some-widget">SUPPORT</div>
-            </div> <div class="col-6 col-lg-3 ">
+            </div> <div class="col-6 col-lg-3">
                 <div id="host" class="selector-for-some-widget">HOST</div>
             </div>
         </div>
     </div>
+<div id="hr" class="container">
+    <hr>
+</div>
+    <h4>SELECTED WORK</h4>
+    <div id="pictures" class="container">
 
-    <div class="container">
-        <h4>SELECTED WORK</h4>
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
             <div class="col"><img src="assets/images/apple-ipad.jpg" alt="appleipad">
                 <div class="d-flex">
@@ -107,13 +110,21 @@
                     <div id="host" class="selector-for-small-circle">H</div>
                 </div>
             </div>
-            <div id="nested"  class="col"><img src="assets/images/mobile-phone.jpg" alt="tablet">
+        </div>
+
+        <div id="nested" class="container">
+        <h4>The Last</h4>
+            <div class="nestpic">
+                <img src="assets/images/mobile-phone.jpg" alt="tablet">
                 <div class="d-flex">
                     <h6>THE ADMIN BAR AND ABSOLUTE POSITIONING</h6>
-                </div><div class="col"><img src="assets/images/head.jpg" alt="head">
+                </div>
+                <div class="nestpic">
+                    <img src="assets/images/head.jpg" alt="head">
                 <div class="d-flex">
                     <h6>MIBBLER AWESOME WERSITE TESTING</h6>
-                </div><div class="col"><img src="assets/images/ipad.jpg" alt="rainbow">
+                </div>
+                    <div class="nestpic"><img src="assets/images/ipad.jpg" alt="rainbow">
                 <div class="d-flex">
                     <h6>HOW TO GET GOOGLE TO LIKE YOU</h6>
                 </div>
@@ -122,8 +133,9 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur illum praesentium voluptatem. Harum id nemo neque non perspiciatis quis sit voluptatem Cupiditate dicta facere necessitatibus.
                     </p>
                 </div>
-            </div>
+                    </div>
         </div>
+            </div>
     </div>
 
 </div>

@@ -6,9 +6,24 @@ body {
     background-color: #E6E6E6;
 }
 
+#icon {
+    height: 50px;
+    width: 50px;
+    margin: 0;
+}
+#banner {
+    font-family: 'Anton', sans-serif;
+    font-size: xxx-large;
+}
+
+#subbanner {
+    font-family: 'Anton', sans-serif;
+    font-size: xx-large;
+}
 /*Large Icons*/
 .selector-for-some-widget {
     /*box-sizing: content-box;*/
+    color: white;
     width: 125px;
     height: 125px;
     border: 10px solid white;
@@ -42,7 +57,6 @@ body {
     /*box-sizing: content-box;*/
     width: 18px;
     height: 18px;
-    border: 1px solid black;
     border-radius: 50%;
     display: flex;
     text-align: center;
@@ -54,9 +68,36 @@ body {
 img {
     max-width: 100%;
     height: auto;
-    border: solid 4px darkgrey;
 }
 
+#nested {
+    display: none;
+}
+
+#hr {
+    display: none;
+}
+@media screen and (min-width:768px) {
+    #hr{
+        display: flex;
+        border-top: solid 1px;
+    }
+}
 @media screen and (min-width:992px) {
+    #nested {
+        object-fit: cover;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nestpic {
+        height: 105px;
+        width: 105px;
+        background: 50% 50% no-repeat;
+
+    }
+    #pictures {
+        display: flex;
+    }
 
 }
