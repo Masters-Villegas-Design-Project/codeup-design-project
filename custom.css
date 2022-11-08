@@ -54,7 +54,6 @@ body {
 
 /*small icons*/
 .selector-for-small-circle {
-    /*box-sizing: content-box;*/
     width: 18px;
     height: 18px;
     border-radius: 50%;
@@ -63,6 +62,13 @@ body {
     justify-content: center;
     flex-direction: column;
     font-family: 'Anton', sans-serif;
+    margin-right: .5em;
+    font-size: x-small;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
 }
 
 img {
@@ -76,6 +82,16 @@ img {
 
 #hr {
     display: none;
+}
+
+#smallicons {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    align-items: center;
+}
+.featuredpro {
+    margin-top: 8px;
 }
 @media screen and (min-width:768px) {
     #hr{
