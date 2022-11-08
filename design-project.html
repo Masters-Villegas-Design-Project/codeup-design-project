@@ -75,17 +75,18 @@
     </div>
 
 <!--    Body-->
-    <div class="container">
+    <div class="container d-flex flex-row">
 
+        <div class="container">
 <!--        Selected Work Header-->
-        <div class="container d-flex justify-content-center">
+            <div class="container d-flex justify-content-center">
             <h4>SELECTED WORK</h4>
         </div>
 
 <!--        Selected Work Body(Large Images)-->
-        <div id="pictures" class="container">
+            <div id="pictures" class="container">
             <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2">
-                <div class="col"><img src="assets/images/apple-ipad.jpg" alt="appleipad">
+                <div class="col"><img class="BC" src="assets/images/apple-ipad.jpg" alt="appleipad">
                     <div class="d-flex">
                         <h6 class="text-nowrap d-flex align-item-center featuredpro">FEATURED PROJECT</h6>
                         <ul id="smallicons" class="container d-flex flex-row">
@@ -97,7 +98,7 @@
                     </div>
                 </div>
 
-                <div class="col"><img src="assets/images/macbook.jpg" alt="macbok">
+                <div class="col"><img class="BC" src="assets/images/macbook.jpg" alt="macbok">
                     <div class="d-flex">
                         <h6 class="text-nowrap d-flex align-item-center featuredpro">FEATURED PROJECT</h6>
                         <ul id="smallicons" class="container d-flex flex-row">
@@ -109,7 +110,7 @@
                     </div>
                 </div>
 
-                <div class="col"><img src="assets/images/man.jpg" alt="man">
+                <div class="col"><img class="BC" src="assets/images/man.jpg" alt="man">
                     <div class="d-flex">
                         <h6 class="text-nowrap d-flex align-item-center featuredpro">FEATURED PROJECT</h6>
                         <ul id="smallicons" class="container d-flex flex-row">
@@ -121,7 +122,7 @@
                     </div>
                 </div>
 
-                <div class="col"><img src="assets/images/security.jpg" alt="security">
+                <div class="col"><img class="BC" src="assets/images/security.jpg" alt="security">
                     <div class="d-flex">
                         <h6 class="text-nowrap d-flex align-item-center featuredpro">FEATURED PROJECT</h6>
                         <ul id="smallicons" class="container d-flex flex-row">
@@ -134,30 +135,36 @@
                 </div>
             </div>
         </div>
+        </div>
 
 <!--        The Last body-->
-        <div id="nested" class="container">
+        <div id="nested" class="container col-4">
             <div class="container d-flex justify-content-center">
             <h4>The Last</h4>
             </div>
-            <div>
-                <div class="container d-flex divSqPic">test</div>
-                <img class="nestpic" src="assets/images/mobile-phone.jpg" alt="tablet">
-                <div class="d-flex">
-                    <h6>THE ADMIN BAR AND ABSOLUTE POSITIONING</h6>
-                </div>
-                <div>
-                    <img class="nestpic" src="assets/images/head.jpg" alt="head">
-                </div>
-                <div class="d-flex">
-                    <h6>MIBBLER AWESOME WERSITE TESTING</h6>
-                </div>
-                    <div><img class="nestpic" src="assets/images/ipad.jpg" alt="rainbow">
+            <div class="container">
+                <div class="row">
+                        <img class="nestpic col-5" src="assets/images/mobile-phone.jpg" alt="tablet">
+                    <div class="d-flex col-7">
+                        <h6 class="nesttext">THE ADMIN BAR AND ABSOLUTE POSITIONING</h6>
                     </div>
-                <div class="d-flex">
-                    <h6>HOW TO GET GOOGLE TO LIKE YOU</h6>
                 </div>
-                <div class="d-flex">
+
+                <div class="row">
+                        <img class="nestpic col-5" src="assets/images/head.jpg" alt="head">
+                    <div class="d-flex col-7">
+                        <h6 class="nesttext">MIBBLER AWESOME WERSITE TESTING</h6>
+                    </div>
+                </div>
+
+                <div class="row">
+                        <img class="nestpic col-5" src="assets/images/ipad.jpg" alt="rainbow">
+                    <div class="d-flex col-7">
+                        <h6 class="nesttext">HOW TO GET GOOGLE TO LIKE YOU</h6>
+                    </div>
+                </div>
+
+                <div class="d-flex flex-column">
                     <h6>LAST TWEET</h6>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur illum praesentium voluptatem. Harum id nemo neque non perspiciatis quis sit voluptatem Cupiditate dicta facere necessitatibus.
                     </p>

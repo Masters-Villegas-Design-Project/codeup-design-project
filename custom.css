@@ -6,6 +6,9 @@ body {
     background-color: #E6E6E6;
 }
 
+.BC {
+    border: lightgrey solid 4px;
+}
 #icon {
     height: 50px;
     width: 50px;
@@ -108,12 +111,18 @@ img {
         flex-direction: column;
     }
 
-    .nestpic {
-        height: 105px;
-        width: 105px;
-        background: 50% 50% no-repeat;
-
+    .nesttext {
+        font-family: 'Anton', sans-serif;
+        font-size: large;
     }
+
+    .nestpic {
+        height: 60px;
+        width: 70px;
+        margin: 0 10px 50px 0;
+        border: lightgrey solid 4px;
+    }
+
     #pictures {
         display: flex;
     }
