@@ -76,6 +76,8 @@ img {
     height: auto;
 }
 
+
+
 #nested {
     display: none;
 }
@@ -115,5 +117,9 @@ img {
     #pictures {
         display: flex;
     }
+
+
+
+
 
 }
