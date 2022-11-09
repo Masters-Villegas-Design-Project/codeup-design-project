@@ -39,19 +39,19 @@ body {
     font-family: 'Anton', sans-serif;
 }
 
-#design{
+.design{
     background-color: #E6563B;
 }
 
-#develop {
+.develop {
     background-color: #EB9D3A;
 }
 
-#support {
+.support {
     background-color: #7CB06C;
 }
 
-#host {
+.host {
     background-color: #00ABA9;
 }
 
@@ -89,7 +89,7 @@ img {
     display: none;
 }
 
-#smallicons {
+.smallicons {
     display: flex;
     justify-content: flex-end;
     padding: 0;
